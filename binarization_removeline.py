@@ -139,7 +139,7 @@ class Binarization:
 def main():
     cwd = os.getcwd()
     iam_augmented_data = cwd + '/dataset/IAM/ruled_data'
-    iam_removed_rule_data = cwd + '/dataset/IAM/removedrule_4thsept'
+    iam_removed_rule_data = cwd + '/dataset/IAM/removedrule'
     iam_cropped_data = cwd + '/dataset/IAM/cropped_data'
     pred_dir = cwd + '/dataset/IAM/removedrule_4thsept'
     gt_dir = cwd + '/dataset/IAM/cropped_data'
