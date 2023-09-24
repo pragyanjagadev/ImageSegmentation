@@ -9,7 +9,7 @@ from pytorch_lightning.callbacks import LearningRateMonitor
 
 # Define hyperparameters
 in_channels = 1
-out_channels = 1
+out_channels = 2
 learning_rate = 0.001
 batch_size = 32
 epochs = 10
