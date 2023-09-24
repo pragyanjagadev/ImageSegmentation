@@ -57,7 +57,7 @@ class UNet(nn.Module):
         parser = ArgumentParser(parents=[parent_parser])
 
         parser.add_argument('--n_channels', type=int, default=3)
-        parser.add_argument('--n_classes', type=int, default=1)
+        parser.add_argument('--n_classes', type=int, default=256)
         return parser
 
 
