@@ -17,7 +17,7 @@ Inorder to achieve the goal of the project below steps are done:
 
 3.Extend Dataset to other artifacts and evaluate performance
 
-## Train
+## Files and Dataset
 
 + Dataset in `dataset/{dataset_name}`:
     
@@ -38,7 +38,7 @@ Inorder to achieve the goal of the project below steps are done:
     + `rules.py` is used to create rules using IAM dataset
     + `augment.py` is used to create augmented images
     + `masks.py` is used to create masks on IAM dataset
-    + `functions.py' is used to keep all reusable functions
+    + `functions.py` is used to keep all reusable functions
     
     + `binarization_removeline.py` is used to remove rules using binarization technique
 
