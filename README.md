@@ -12,7 +12,7 @@ Inorder to achieve the goal of the project below steps are done:
 
 2.Remove the rules using below techniques :
 - binarization technique 
-- removing the rules with binary image sgmentaion using U-Net and then inpaint them using LAMA technique.
+- removing the rules with binary image segmentation using U-Net and then inpaint them using LAMA technique.
 - removing the rules with a U-Net 256 classes
 
 3.Extend Dataset to other artifacts and evaluate performance
@@ -39,7 +39,6 @@ Inorder to achieve the goal of the project below steps are done:
     +augment.py is used to create augmented images
     +masks.py is used to create masks on IAM dataset
     +functions.py is used to keep all reusable functions
-
     +binarization_removeline.py is used to remove rules using binarization technique
 
     +unet_binary.py is used to build the architecture of binary classfication using unet 
