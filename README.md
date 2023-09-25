@@ -33,7 +33,7 @@ Inorder to achieve the goal of the project below steps are done:
     + `artifacts`: contains image with additional artifacts like added noise with multiple techniques
     + `artifacts_masks_pred`: contains predicted masks using binary classification on additional artfiacts images
     
-+ Rules:
++ Dataset in `dataset/{dataset_name}`:
     
     +rules.py is used to create rules using IAM dataset
     +augment.py is used to create augmented images
