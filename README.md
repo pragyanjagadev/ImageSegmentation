@@ -55,8 +55,8 @@ Inorder to achieve the goal of the project below steps are done:
     + `evaluator.py is` used to evaluate performance 
     + `qualitative_analysis.ipynb` is used to do some qualitative analysis on predicted result
 
-    +additional_artifacts.py is used to add some additional noise on test dataset
-    +test_binary_artifacts.py is used to test the model on newly developed dataset
+    + `additional_artifacts.py` is used to add some additional noise on test dataset
+    + `test_binary_artifacts.py` is used to test the model on newly developed dataset
 
 
 
