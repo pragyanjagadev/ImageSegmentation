@@ -33,26 +33,27 @@ Inorder to achieve the goal of the project below steps are done:
     + `artifacts`: contains image with additional artifacts like added noise with multiple techniques
     + `artifacts_masks_pred`: contains predicted masks using binary classification on additional artfiacts images
     
-+ Dataset in `dataset/{dataset_name}`:
++ File structure:
     
-    +rules.py is used to create rules using IAM dataset
-    +augment.py is used to create augmented images
-    +masks.py is used to create masks on IAM dataset
-    +functions.py is used to keep all reusable functions
-    +binarization_removeline.py is used to remove rules using binarization technique
+    + `rules.py` is used to create rules using IAM dataset
+    + `augment.py` is used to create augmented images
+    + `masks.py` is used to create masks on IAM dataset
+    + `functions.py' is used to keep all reusable functions
+    
+    + `binarization_removeline.py` is used to remove rules using binarization technique
 
-    +unet_binary.py is used to build the architecture of binary classfication using unet 
-    +train_binary.py is used to train the model
-    +test_binary.py/binary_model.ipynb  is used to test data
-    +lama/lama.ipynb is used to implemet lama on result from test dataset
+    + `unet_binary.py` is used to build the architecture of binary classfication using unet 
+    + `train_binary.py` is used to train the model
+    + `test_binary.py/binary_model.ipynb`  is used to test data
+    + `lama/lama.ipynb` is used to implemet lama on result from test dataset
 
-    +Unet.py is used to build the architecture of multiclass classfication using unet 
-    +train.py/multiclass_train.ipynb  is used to train the model
-    +test.py is used to test data
+    + `Unet.py` is used to build the architecture of multiclass classfication using unet 
+    + `train.py/multiclass_train.ipynb`  is used to train the model
+    + `test.py` is used to test data
 
-    +eval_dataloader.py is used to load data of test dataset
-    +evaluator.py is used to evaluate performance 
-    +qualitative_analysis.ipynb is used to do some qualitative analysis on predicted result
+    + `eval_dataloader.py` is used to load data of test dataset
+    + `evaluator.py is` used to evaluate performance 
+    + `qualitative_analysis.ipynb` is used to do some qualitative analysis on predicted result
 
     +additional_artifacts.py is used to add some additional noise on test dataset
     +test_binary_artifacts.py is used to test the model on newly developed dataset
