@@ -31,7 +31,7 @@ Inorder to achieve the goal of the project below steps are done:
     + `output_lama`: contains predicted images after applying LAMA technique on predicted masked images from binary classification
     + `output_multiclass`: contains predicted images after applying multiclass image segmentation
     + `artifacts`: contains image with additional artifacts like added noise with multiple techniques
-    + `artifacts_masks_pred`: contains predicted masks using binary classification on additional artfiacts images
+    + `artifacts_masks_pred`: contains predicted masks using binary classification on additional artifacts images
     
 + File structure:
     
@@ -60,5 +60,5 @@ Inorder to achieve the goal of the project below steps are done:
 
 
 
-Log and checkpoints are automatically saved in `lightning_logs_binary` and 'version_9' for binary and multiclass segmentation respectively.
+Log and checkpoints are automatically saved in `lightning_logs_binary` and `version_9` for binary and multiclass segmentation respectively.
 Early stopping is enable by default by pytorch-lightning.
